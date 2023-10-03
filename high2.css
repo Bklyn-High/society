@@ -1,0 +1,21 @@
+.contain {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: rgb(47 85 65);
+  min-width: 100dvw;
+  min-height: 100dvh;
+}
+.hrs {
+  text-align: center;
+  min-width: 80dvw;
+  min-height: auto;
+  border: 3px solid;
+  border-radius: 5px;
+}
+#ho {
+  color: rgb(161 138 7);
+}
+#oth {
+  color: rgb(161, 138, 7);
+}
