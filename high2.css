@@ -1,21 +1,42 @@
 .contain {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+
   justify-content: center;
-  background-color: rgb(47 85 65);
-  min-width: 100dvw;
-  min-height: 100dvh;
+  background-color: rgb(250, 250, 250);
 }
 .hrs {
   text-align: center;
-  min-width: 80dvw;
+  min-width: auto;
   min-height: auto;
   border: 3px solid;
   border-radius: 5px;
 }
 #ho {
-  color: rgb(161 138 7);
+  color: rgb(3, 102, 41);
 }
 #oth {
-  color: rgb(161, 138, 7);
+  color: rgb(3, 102, 41);
+}
+.hero {
+  display: flex;
+  gap: 3.5rem;
+
+  padding-left: 10px;
+}
+.hero:hover {
+  box-shadow: 8px, 8px, 8px, 8px, black;
+}
+#bae {
+  color: red;
+}
+.hipi {
+  text-align: center;
+  min-width: auto;
+  min-height: auto;
+  box-shadow: 1px 4px 8px 1px black;
+  padding: 5px;
+}
+.pwr {
+  box-shadow: 1px 1px 8px 1px red;
+  padding-left: 5px;
 }
